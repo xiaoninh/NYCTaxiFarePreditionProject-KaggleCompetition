@@ -1,0 +1,17 @@
+key: an unique identifier of each trip, datetime
+fare_amount: fare of that taxi trip, float
+pickup_datetime: pick up date and time, datetime
+pickup_latitude: ANS, float
+pickup_longitude: ANS, float
+dropoff_latitude: ANS, float
+dropoff_longitude: ANS, float
+passenger_count: number of passengers in each trip, int
+--------------------------------------------------
+rush_hour: indicated whether or not a trip happened in rush rush_hour, binary
+# rush hour is defined as 7-9AM and 4-7PM in each weekday
+weekday: indicated on which day the trip happens, int (0-6)
+weekend: whether or not the trip happens on weekend, binary
+day_night: whether or not the trip happens on day/night, binary
+# day is defined as 6AM - 6PM and night is defined as 6:01PM to 5:59AM
+distance: distance of the trip, float
+
